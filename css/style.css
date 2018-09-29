@@ -1,0 +1,16 @@
+.bordas {
+	padding: 0px;
+}
+
+.cor-fundo{
+	background-color: #00b33c;
+}
+
+.rodapé {
+	height: 50px;
+}
+.busca{
+	color: white; 
+	border-color: white;
+	background-color: lightblue;
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no initial-scale=no">
+	<title>aula8</title>
+	<!-- css bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<!-- meu css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- navbar -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12 bordas">
+				<nav class="navbar navbar-expand-lg navbar-dark cor-fundo">
+				  <a>Pé-junto</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background: lightblue;">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+
+				  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+				    <ul class="navbar-nav mr-auto">
+				      <li class="nav-item active">
+				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				      </li>
+				      <li class="nav-item">
+				        <a class="nav-link" href="#">Planos de Viagem</a>
+				      </li>
+				      <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				          Onde ir?
+				        </a>
+				        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				          <a class="dropdown-item" href="#">Nova York</a>
+				          <a class="dropdown-item" href="#">Europa</a>
+				          <a class="dropdown-item" href="#">Parques de Diversão</a>
+				        </div>
+				    </ul>
+				    <form class="form-inline my-2 my-lg-0">
+				      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				      <button class="btn btn-outline-success my-2 my-sm-0 busca" type="submit">Search</button>
+				    </form>
+				  </div>
+				</nav>
+			</div>
+		</div>
+	</div>
+	
+	<!-- carrosel -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12" style="padding: 0;">
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img class="d-block w-100" src="imgs/1.jpg" alt="First slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="imgs/2.jpg" alt="Second slide">
+				    </div>
+				    <div class="carousel-item">
+				      <img class="d-block w-100" src="imgs/3.jpg" alt="Third slide">
+				    </div>
+				  </div>
+				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- cards -->
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="imgs/4.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Plano de Viagem</h5>
+				    <p class="card-text">Venha comhecer NY com a gente.</p>
+				    <div class="dropdown">
+					  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Formas de pagamento
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					    <a class="dropdown-item" href="#">Cartão de Cerdito</a>
+					    <a class="dropdown-item" href="#">Cartão de Debito</a>
+					    <a class="dropdown-item" href="#">Boleto Bancario</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="imgs/5.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Planos de Viagem</h5>
+				    <p class="card-text">Queres acampar também progamas para isso.</p>
+				    <div class="dropdown">
+					  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Formas de pagamento
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					    <a class="dropdown-item" href="#">Cartão de Cerdito</a>
+					    <a class="dropdown-item" href="#">Cartão de Debito</a>
+					    <a class="dropdown-item" href="#">Boleto Bancario</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="imgs/6.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Planos de Viagem</h5>
+				    <p class="card-text">Para conhecer grande montadoras e super carros.</p>
+				    <div class="dropdown">
+					  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Formas de pagamento
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					    <a class="dropdown-item" href="#">Cartão de Cerdito</a>
+					    <a class="dropdown-item" href="#">Cartão de Debito</a>
+					    <a class="dropdown-item" href="#">Boleto Bancario</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- segunda linha de cards -->
+	<div class="container mt-3">
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="imgs/7.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Plano de Viagem</h5>
+				    <p class="card-text">Para conhecer novas praias.</p>
+				    <div class="dropdown">
+					  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Formas de pagamento
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					    <a class="dropdown-item" href="#">Cartão de Cerdito</a>
+					    <a class="dropdown-item" href="#">Cartão de Debito</a>
+					    <a class="dropdown-item" href="#">Boleto Bancario</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="imgs/8.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Planos de Viagem</h5>
+				    <p class="card-text">Para fazer expedição de fotos com os amigos.</p>
+				    <div class="dropdown">
+					  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Formas de pagamento
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					    <a class="dropdown-item" href="#">Cartão de Cerdito</a>
+					    <a class="dropdown-item" href="#">Cartão de Debito</a>
+					    <a class="dropdown-item" href="#">Boleto Bancario</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="card" style="width: 18rem;">
+				  <img class="card-img-top" src="imgs/9.jpg" alt="Card image cap">
+				  <div class="card-body">
+				    <h5 class="card-title">Planos de Viagem</h5>
+				    <p class="card-text">Para festas de fim do ano.</p>
+				    <div class="dropdown">
+					  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    Formas de pagamento
+					  </button>
+					  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					    <a class="dropdown-item" href="#">Cartão de Cerdito</a>
+					    <a class="dropdown-item" href="#">Cartão de Debito</a>
+					    <a class="dropdown-item" href="#">Boleto Bancario</a>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- rodapé -->
+	<div class="container-fluid mt-3">
+		<div class="row">
+			<div class="col-sm-12 bordas cor-fundo rodapé">
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript Bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
